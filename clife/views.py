@@ -5,6 +5,8 @@ from time import sleep
 
 from clife.grid import LifeGrid
 
+__all__ = ["CursesView"]
+
 
 class CursesView:
     def __init__(self, pattern, gen=10, frame_rate=7, bbox=(0, 0, 20, 20)):
